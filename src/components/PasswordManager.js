@@ -126,9 +126,11 @@ const PasswordManager = () => {
         <div className="bottom-container">
           <div>
             <div className="your-password-container">
-              <div className="your-password-text-cont">
+              <div className="your-password-text-count">
                 <h1 className="password-heading">Your Passwords</h1>
+                <div className="count-container">
                 <p className="count">{count}</p>
+                </div>
               </div>
               <div className="search-input-container">
                 <img
